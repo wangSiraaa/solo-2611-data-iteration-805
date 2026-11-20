@@ -1,0 +1,31 @@
+{
+  "job_id": "demo_heavy",
+  "code_tables": {
+    "v1": "codes/v1.json",
+    "v2": "codes/v2.json"
+  },
+  "left": {
+    "files": [
+      {
+        "path": "parquet/demo_left.parquet",
+        "code_version": "v1"
+      }
+    ],
+    "key_column": "lk",
+    "columns": [
+      "lv"
+    ]
+  },
+  "right": {
+    "files": [
+      {
+        "path": "parquet/demo_right_heavy.parquet",
+        "code_version": "v1"
+      }
+    ],
+    "key_column": "rk",
+    "columns": [
+      "rv"
+    ]
+  }
+}

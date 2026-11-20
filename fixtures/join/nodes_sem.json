@@ -1,0 +1,12 @@
+{
+  "nodes": [
+    {
+      "node_id": "n0",
+      "max_output_rows": 8
+    },
+    {
+      "node_id": "n1",
+      "max_output_rows": 8
+    }
+  ]
+}

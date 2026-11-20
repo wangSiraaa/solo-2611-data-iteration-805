@@ -1,0 +1,31 @@
+{
+  "job_id": "semantics",
+  "code_tables": {
+    "v1": "codes/v1.json",
+    "v2": "codes/v2.json"
+  },
+  "left": {
+    "files": [
+      {
+        "path": "parquet/sem_left.parquet",
+        "code_version": "v1"
+      }
+    ],
+    "key_column": "lk",
+    "columns": [
+      "lv"
+    ]
+  },
+  "right": {
+    "files": [
+      {
+        "path": "parquet/sem_right.parquet",
+        "code_version": "v2"
+      }
+    ],
+    "key_column": "rk",
+    "columns": [
+      "rv"
+    ]
+  }
+}

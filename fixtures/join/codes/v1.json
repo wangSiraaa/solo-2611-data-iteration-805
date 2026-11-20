@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "mappings": {
+    "a": "STD_A",
+    "A": "STD_A",
+    "alpha": "STD_A",
+    "b": "STD_B",
+    "": "STD_EMPTY"
+  }
+}
